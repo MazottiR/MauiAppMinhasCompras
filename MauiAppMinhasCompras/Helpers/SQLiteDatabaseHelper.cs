@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SQLite;
+﻿using SQLite;
 using MauiAppMinhasCompras.Models;
-using Android.Graphics.Drawables;
 
 namespace MauiAppMinhasCompras.Helpers
 {
     public class SQLiteDatabaseHelper
     {
-        reandonly SQLiteConnection _connection;
+        readonly SQLiteAsyncConnection _conn;
 
         public SQLiteDatabaseHelper(string path) 
         {

@@ -10,7 +10,7 @@ public partial class ListaProduto : ContentPage
 	{
 		InitializeComponent();
 
-		lst_produtos.ItemSource = lista;
+		lst_produtos.ItemsSource = lista;
 	}
 
     protected async override void OnAppearing()
@@ -96,6 +96,23 @@ public partial class ListaProduto : ContentPage
         }
 		catch (Exception ex)
 		{
+            DisplayAlert("Ops", ex.Message, "Ok");
+        }
+    }
+
+    private void lst_produtos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+    {
+		try
+		{
+			Produto p = e.SelectedItem as Produto;
+
+			Navigation.PushAsync(new Views.EditarProduto
+			{
+				BindingContext = p,
+			});
+		}
+        catch (Exception ex)
+        {
             DisplayAlert("Ops", ex.Message, "Ok");
         }
     }
