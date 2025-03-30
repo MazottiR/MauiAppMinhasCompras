@@ -13,7 +13,7 @@ public partial class EditarProduto : ContentPage
     {
         try
         {
-            Produto produto_anexado = BindingContext as Produto;
+            Produto produto_anexado = BindingContext as Produto; // Cria uma variável (tipo de produto) que será o nosso Binding Context --> Em outras palavras, ele fará a função “ViewModel”, ligando o BD com a View
 
             Produto p = new Produto
             {
@@ -21,9 +21,9 @@ public partial class EditarProduto : ContentPage
                 Descricao = txt_descricao.Text,
                 Quantidade = Convert.ToDouble(txt_quantidade.Text),
                 Preco = Convert.ToDouble(txt_preco.Text)
-            };
+            }; // Inserir os valores dados numa nova instância de produtos
 
-            await App.Db.Insert(p);
+            await App.Db.Insert(p); // Atualizar o produto com novos valores
             await DisplayAlert("Sucesso!", "Registro Atualizado", "OK");
             await Navigation.PopAsync();
         }

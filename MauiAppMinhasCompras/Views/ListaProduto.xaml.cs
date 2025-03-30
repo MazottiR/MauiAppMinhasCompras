@@ -13,6 +13,7 @@ public partial class ListaProduto : ContentPage
 		lst_produtos.ItemsSource = lista;
 	}
 
+    // Mostra a lista de produtos
     protected async override void OnAppearing()
     {
 		try
@@ -28,6 +29,7 @@ public partial class ListaProduto : ContentPage
         }
     }
 
+    // Adiciona um novo produto
     private void ToolbarItem_Clicked(object sender, EventArgs e)
 	{
 		try
@@ -46,9 +48,9 @@ public partial class ListaProduto : ContentPage
 		{
 			string q = e.NewTextValue;
 
-			lista.Clear();
+			lista.Clear(); // Limpa a lista sempre que voltamos à janela
 
-			List<Produto> tmp = await App.Db.Search(q);
+            List<Produto> tmp = await App.Db.Search(q);
 
 			tmp.ForEach(i => lista.Add(i));
 		}
@@ -58,6 +60,7 @@ public partial class ListaProduto : ContentPage
         }
     }
 
+    //Mostra o total da lista
     private void ToolbarItem_Clicked_1(object sender, EventArgs e)
     {
 		try
@@ -74,6 +77,7 @@ public partial class ListaProduto : ContentPage
         }
     }
 
+    // Deleta o produto
     private async void MenuItem_Clicked(object sender, EventArgs e)
     {
 		try 
@@ -100,6 +104,7 @@ public partial class ListaProduto : ContentPage
         }
     }
 
+    // Edita o produto
     private void lst_produtos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
     {
 		try
