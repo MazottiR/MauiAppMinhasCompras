@@ -83,3 +83,5 @@ Pesquisar produtos
 ![Captura de tela 2025-03-30 201149](https://github.com/user-attachments/assets/8c04396d-0c79-460c-a3ba-2073f73ac2c0)
 
 ![Captura de tela 2025-03-30 201203](https://github.com/user-attachments/assets/1d8fe123-f4ce-4697-bf96-1444b1ea1b22)
+
+![gifmd](https://github.com/user-attachments/assets/587f9a4c-f900-43b1-ba97-11af9449fcdc)
