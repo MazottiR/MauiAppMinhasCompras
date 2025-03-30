@@ -78,8 +78,8 @@ Remover produto
 Calcular total de compras
 Pesquisar produtos
 
-![Inicial](https://github.com/user-attachments/assets/2554dd94-0123-4477-8ae3-0376ad7fb0f8)
+![Captura de tela 2025-03-30 201130](https://github.com/user-attachments/assets/d60d483b-2232-4425-9d20-4f75e4e03050)
 
-![NovoPrdt](https://github.com/user-attachments/assets/387fb4eb-310c-4e75-b326-6b28544c5e70)
+![Captura de tela 2025-03-30 201203](https://github.com/user-attachments/assets/1f8d0ca2-be19-4190-a842-ac8db9609a01)
 
-![Somar](https://github.com/user-attachments/assets/dec4e460-6307-433f-beab-093dfe4420b2)
+![Captura de tela 2025-03-30 201203](https://github.com/user-attachments/assets/1d8fe123-f4ce-4697-bf96-1444b1ea1b22)
