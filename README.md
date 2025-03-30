@@ -77,3 +77,9 @@ Editar produto existente
 Remover produto
 Calcular total de compras
 Pesquisar produtos
+
+![Inicial](https://github.com/user-attachments/assets/2554dd94-0123-4477-8ae3-0376ad7fb0f8)
+
+![NovoPrdt](https://github.com/user-attachments/assets/387fb4eb-310c-4e75-b326-6b28544c5e70)
+
+![Somar](https://github.com/user-attachments/assets/dec4e460-6307-433f-beab-093dfe4420b2)
